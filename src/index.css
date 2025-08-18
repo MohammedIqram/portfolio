@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  @keyframes fade-up {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes fade-down {
+    0% { opacity: 0; transform: translateY(-20px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes fade-left {
+    0% { opacity: 0; transform: translateX(-20px); }
+    100% { opacity: 1; transform: translateX(0); }
+  }
+
+  .animate-fade-up { animation: fade-up 0.8s ease-out forwards; }
+  .animate-fade-down { animation: fade-down 0.8s ease-out forwards; }
+  .animate-fade-left { animation: fade-left 0.8s ease-out forwards; }
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+@keyframes blink {
+  0%, 50%, 100% { border-color: transparent }
+  25%, 75% { border-color: #00ddff }
+}
+.animate-typing {
+  display: inline-block;
+  width: 0;
+  animation: typing 4s steps(40, end) forwards, blink 1s step-end infinite;
+}
