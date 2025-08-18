@@ -28,9 +28,9 @@ const portfolioData = {
   objective:
     "Passionate about building scalable, user-friendly applications. Skilled in full-stack development and always eager to explore new technologies. Currently working full-time at Indea Design Systems Pvt. Ltd.",
   resume: resume,
-  github: "https://github.com/Mohammed-Sameer-Inamdar",
+  github: "https://github.com/MohammedIqram",
   linkedin: "http://www.linkedin.com/in/mohammed-iqram-inamdar-312193199",
-  portfolio: "https://mohammed-iqram-inamdar.github.io/portfolio/",
+  portfolio: "https://mohammediqram.github.io/portfolio/",
   contact: {
     email: "mohammediqraminamdar@gmail.com",
     phone: "+91 88840 28716"
@@ -88,27 +88,27 @@ const portfolioData = {
       featured: true
     },
     {
-      title: "Hospitality Management System",
-      description: "A comprehensive hospitality management system built using React, Node.js, Express.js, and MongoDB. Features user authentication, reservation management.",
-      github: "https://github.com/Mohammed-Sameer-Inamdar/hospitality",
+      title: "Coach Web Application",
+      description: "Technologies: React.js, Node.js, Material-UI. Architected and initiated a coach web application with a responsive and modern UI using Material-UI. Completed as part of training at India Design System Pvt Ltd, the project strengthened my proficiency in React and Node.js, earned me handson experience in REST API integration, and upgraded my understanding of full-stack web application architecture.",
+      github: "https://github.com/MohammedIqram/coach_app",
       demo: null
     },
     {
-      title: "Dynamic Form Builder",
-      description: "React-based drag-and-drop form creation tool allowing custom field types, sections, and real-time preview. Integrated with APIs for saving and retrieving form layouts.",
-      github: "https://github.com/Mohammed-Sameer-Inamdar/dynamicForms",
+      title: "Flight Booking Web App",
+      description: "Technologies: TypeScript, React.js, Node.js, Ant Design. I Constructed a full-fledged flight booking system with features like date selection, price filtering, and seat booking logic. Leveraged TypeScript for type safety and Ant Design for consistent UI. This project advanced my front-end and back-end synchronization skills and acquired knowledge in dynamic data rendering.",
+      github: "https://github.com/MohammedIqram/flight_booking_typscript",
       demo: null
     },
     {
-      title: "Social Media",
-      description: "A social media platform built using React, Node.js, Express.js, and MongoDB. Features user authentication, profile creation, and real-time chat functionality.",
-      github: "https://github.com/Mohammed-Sameer-Inamdar/social-medai",
+      title: "Expense Tracker Web App",
+      description: "Technologies: TypeScript, React.js, Node.js, Ant Design. Established an interactive expense tracking system that enables users to add, delete, and categorize transactions. Integrated charts for visual analytics and Redux for state management. This application helped me refine my state handling strategies and improved my ability to implement scalable component architectures.",
+      github: "https://github.com/MohammedIqram/expense_tracker_typescript",
       demo: null
     },
     {
       title: "Task Management App",
-      description: "React + RTK Query powered app for managing tasks with filters, sorting, authentication, and optimized performance using memoization techniques.",
-      github: "https://github.com/Mohammed-iqr-Inamdar/taskManager",
+      description: "React app for managing tasks with filters, sorting, authentication, and optimized performance using memoization techniques.",
+      github: "https://github.com/MohammedIqram/task_management",
       demo: null
     },
     {
@@ -117,12 +117,12 @@ const portfolioData = {
       github: "https://github.com/MohammedIqram/portfolio",
       demo: "https://MohammedIqram.github.io/portfolio/"
     },
-    {
-      title: "Know Your Rights",
-      description: "CodeIgniter powered app for understanding and complying with legal documents, ensuring compliance with laws and regulations. Providing references to the relevant laws and regulations.",
-      github: "https://github.com/Mohammed-Sameer-Inamdar/know_your_rights",
-      demo: null
-    }
+    // {
+    //   title: "Know Your Rights",
+    //   description: "CodeIgniter powered app for understanding and complying with legal documents, ensuring compliance with laws and regulations. Providing references to the relevant laws and regulations.",
+    //   github: "https://github.com/Mohammed-Sameer-Inamdar/know_your_rights",
+    //   demo: null
+    // }
   ],
   journey: [
     // EXPERIENCE

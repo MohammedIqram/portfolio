@@ -11,7 +11,7 @@ function Navbar({ activeSection, PRIMARY_TEXT_GRADIENT }) {
             <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-3">
                 {/* Logo / Name */}
                 <h2 className={`text-xl font-bold tracking-wide ${PRIMARY_TEXT_GRADIENT}`}>
-                    Mohammed Sameer Inamdar
+                    Mohammed Iqram Inamdar
                 </h2>
 
                 {/* Desktop Menu */}
