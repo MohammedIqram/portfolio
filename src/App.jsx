@@ -51,15 +51,13 @@ const portfolioData = {
       items: [
         { icon: <FaNodeJs className="text-green-500" />, name: "Node.js" },
         { icon: <FaJava className="text-red-500" />, name: "Java" },
-        { icon: <SiPhp className="text-indigo-400" />, name: "PHP" },
-        { icon: <SiCodeigniter className="text-red-400" />, name: "CodeIgniter" }
+        { icon: <SiPhp className="text-indigo-400" />, name: "Express.js" },
       ]
     },
     {
       title: "Mobile",
       items: [
         { icon: <FaAndroid className="text-green-400" />, name: "Android Studio" },
-        { icon: <FaReact className="text-cyan-400" />, name: "React Native" }
       ]
     },
     {
@@ -67,8 +65,6 @@ const portfolioData = {
       items: [
         { icon: <SiMongodb className="text-green-500" />, name: "MongoDB" },
         { icon: <SiMysql className="text-blue-500" />, name: "MySQL" },
-        { icon: <SiPostgresql className="text-indigo-500" />, name: "PostgreSQL" },
-        { icon: <FaDatabase className="text-gray-300" />, name: "MS SQL" }
       ]
     },
     {
@@ -84,7 +80,7 @@ const portfolioData = {
       title: "Repfabric CRM Integration",
       description: "I contributed to the development of the Repfabric project, a comprehensive customer relationship management (CRM) system built using JavaServer Faces (JSF). The primary objective of this project was to streamline sales processes, enhance customer interaction, and improve overall sales management efficiency.",
       github: null,
-      demo: null,
+      demo: "https://repfabric.com/",
       featured: true
     },
     {
@@ -107,7 +103,7 @@ const portfolioData = {
     },
     {
       title: "Task Management App",
-      description: "React app for managing tasks with filters, sorting, authentication, and optimized performance using memoization techniques.",
+      description: "Technologies: TypeScript, React.js, Node.js, Ant Design. Developed a React app for managing tasks with filters, sorting, authentication, and optimized performance using memoization techniques. Implemented role-based access control for secure task operations and integrated REST APIs for seamless data synchronization. Designed a responsive UI with Ant Design to ensure smooth user experience across devices.",
       github: "https://github.com/MohammedIqram/task_management",
       demo: null
     },
