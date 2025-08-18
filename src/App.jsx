@@ -5,7 +5,7 @@ import {
 } from "react-icons/fa";
 import {
   SiTailwindcss, SiJavascript, SiHtml5, SiCss3,
-  SiMongodb, SiMysql, SiMaterialdesign, SiAntdesign, SiTypescript,SiOpenjsfoundation
+  SiMongodb, SiMysql, SiMaterialdesign, SiAntdesign, SiTypescript,SiOpenjsfoundation,SiSpringboot
 } from "react-icons/si";
 import Navbar from "./navbar";
 
@@ -55,6 +55,7 @@ const portfolioData = {
       items: [
         { icon: <FaNodeJs className="text-green-500" />, name: "Node.js" },
         { icon: <FaJava className="text-red-500" />, name: "Java" },
+        { icon: <SiSpringboot className="text-red-500" />, name: "SpringBoot" },
       ]
     },
     {
