@@ -5,7 +5,7 @@ import {
 } from "react-icons/fa";
 import {
   SiTailwindcss, SiJavascript, SiHtml5, SiCss3,
-  SiMongodb, SiMysql, SiPostgresql, SiPhp, SiCodeigniter
+  SiMongodb, SiMysql, SiMaterialdesign, SiAntdesign, SiTypescript,SiOpenjsfoundation
 } from "react-icons/si";
 import Navbar from "./navbar";
 
@@ -39,11 +39,15 @@ const portfolioData = {
     {
       title: "Frontend",
       items: [
+        { icon: <FaReact className="text-cyan-400" />, name: "React" },
         { icon: <SiJavascript className="text-yellow-400" />, name: "JavaScript" },
+        { icon: <SiTypescript className="text-yellow-400" />, name: "TypeScript" },
+        { icon: <SiOpenjsfoundation className="text-cyan-400" />, name: "JSF" },
         { icon: <SiHtml5 className="text-orange-500" />, name: "HTML" },
         { icon: <SiCss3 className="text-blue-500" />, name: "CSS" },
-        { icon: <FaReact className="text-cyan-400" />, name: "React" },
-        { icon: <SiTailwindcss className="text-sky-400" />, name: "Tailwind CSS" }
+        { icon: <SiTailwindcss className="text-sky-400" />, name: "Tailwind CSS" },
+        {icon: <SiMaterialdesign className="text-sky-400" />, name: "Material Design" },
+        {icon: <SiAntdesign className="text-sky-400" />, name: "Antd Design" }
       ]
     },
     {
@@ -51,7 +55,6 @@ const portfolioData = {
       items: [
         { icon: <FaNodeJs className="text-green-500" />, name: "Node.js" },
         { icon: <FaJava className="text-red-500" />, name: "Java" },
-        { icon: <SiPhp className="text-indigo-400" />, name: "Express.js" },
       ]
     },
     {
