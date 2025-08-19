@@ -67,8 +67,9 @@ const portfolioData = {
     {
       title: "Databases",
       items: [
-        { icon: <SiMongodb className="text-green-500" />, name: "MongoDB" },
         { icon: <SiMysql className="text-blue-500" />, name: "MySQL" },
+        { icon: <SiMongodb className="text-green-500" />, name: "MongoDB" },
+        
       ]
     },
     {
@@ -82,7 +83,7 @@ const portfolioData = {
   projects: [
     {
       title: "Repfabric CRM Integration",
-      description: "I contributed to the development of the Repfabric project, a comprehensive customer relationship management (CRM) system built using JavaServer Faces (JSF). The primary objective of this project was to streamline sales processes, enhance customer interaction, and improve overall sales management efficiency.",
+      description: "I contributed to the development of the Repfabric project, a comprehensive customer relationship management (CRM) system built using JavaServer Faces (JSF). The primary objective of this project was to streamline sales processes, enhance customer interaction, and improve overall sales management efficiency. I played a key role in designing and integrating modules that automated data handling and reporting, reducing manual effort and boosting team productivity.",
       github: null,
       demo: "https://repfabric.com/",
       featured: true
@@ -113,7 +114,7 @@ const portfolioData = {
     },
     {
       title: "Portfolio Website",
-      description: "Modern personal portfolio with responsive design, animations, and interactive UI built using React, Tailwind CSS, and Vite.",
+      description: "Modern personal portfolio with responsive design, animations, and interactive UI built using React, Tailwind CSS, and Vite. Implemented reusable components and smooth navigation to showcase skills, projects, and career journey effectively. Integrated performance optimizations and SEO best practices to ensure fast loading and better visibility.",
       github: "https://github.com/MohammedIqram/portfolio",
       demo: "https://MohammedIqram.github.io/portfolio/"
     },
@@ -127,15 +128,15 @@ const portfolioData = {
   journey: [
     // EXPERIENCE
     {
-      type: "experience",
+      type: "Experience",
       title: "Software Developer",
       company: "Indea Design Systems Pvt. Ltd",
-      period: "Jan 2022 – June 2025",
+      period: "Jan 2022 – Jun 2025",
       description:
         "Collaborated on CRM and hospitality projects using JSF, React js, Node.js, and Java. Focused on performance optimization, API integration, and scalable solutions."
     },
     {
-      type: "experience",
+      type: "Experience",
       title: "Junior Software Developer (Trainee)",
       company: "Rooman Technologies",
       period: "Oct 2020 – Mar 2020",
@@ -316,7 +317,7 @@ export default function App() {
           {portfolioData.projects.map((p, idx) => (
             <div
               key={idx}
-              className={`bg-gray-800 p-6 rounded-xl shadow-lg transition transform hover:-translate-y-2 ${p.featured
+              className={`bg-gray-800 p-6 rounded-xl shadow-lg transition transform hover:-translate-y-2 flex flex-col ${p.featured
                 ? "border-2 border-[#00ddff] hover:shadow-[#00ddff]/40"
                 : "hover:shadow-[#ff00d4]/40"
                 }`}
@@ -326,7 +327,7 @@ export default function App() {
               </h3>
               <p className="text-gray-300 mb-4">{p.description}</p>
 
-              <div className="flex gap-3">
+              <div className="flex gap-3 justify-center mt-auto">
                 {p.github && (
                   <a
                     href={p.github}
@@ -400,8 +401,9 @@ export default function App() {
                     >
                       <h3 className={`text-xl font-semibold ${isEducation ? "text-[#ff00d4]" : "text-[#00ddff]"}`}>{item.title}</h3>
                       <p className="text-white">
-                        {item.company} | {item.period}
+                        {item.company} 
                       </p>
+                       <p className="mt-2 text-white">{item.period}</p>
                       <p className="mt-2 text-gray-300 text-sm">{item.description}</p>
                     </div>
                   </div>
