@@ -399,8 +399,8 @@ export default function App() {
                     <div
                       className={`bg-gray-800 p-6 rounded-xl shadow-lg transition transform hover:-translate-y-1 ${glowClass}`}
                     >
-                      <h3 className={`text-xl font-semibold ${isEducation ? "text-[#ff00d4]" : "text-[#00ddff]"}`}>{item.title}</h3>
-                      <p className="text-white">
+                      <h3 className={`mt-2 text-xl font-semibold ${isEducation ? "text-[#ff00d4]" : "text-[#00ddff]"}`}>{item.title}</h3>
+                      <p className="mt-2 text-white">
                         {item.company} 
                       </p>
                        <p className="mt-2 text-white">{item.period}</p>
